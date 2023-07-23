@@ -2,7 +2,7 @@
 This figurate numbers generator currently handles squares, triangulars, and stars up to n=10.
 	
 ## Demo
-[https://forgitaboutit.github.io/figurate-numbers-generator/](https://forgitaboutit.github.io/sfigurate-numbers-generator/)
+[https://forgitaboutit.github.io/figurate-numbers-generator/](https://forgitaboutit.github.io/figurate-numbers-generator/)
 
 ## Technologies
 * JavaScript
