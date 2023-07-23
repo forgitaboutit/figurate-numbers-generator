@@ -11,6 +11,9 @@ This figurate numbers generator currently handles squares, triangulars, and star
 
 ## See Also
 https://en.wikipedia.org/wiki/Figurate_number
+
 https://en.wikipedia.org/wiki/Square_number
+
 https://en.wikipedia.org/wiki/Triangular_number
+
 https://en.wikipedia.org/wiki/Star_number
