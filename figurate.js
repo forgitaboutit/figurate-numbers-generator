@@ -6,7 +6,12 @@
 
 $(function() {
 
-  $('#generate-button').bind('click', generate);
+  let generateButton = $('#generate-button');
+  generateButton.bind('click', generate);
+
+  $('select').bind('change', function() {
+    generateButton.prop('disabled', false);
+  });
 
 });
 
@@ -22,8 +27,6 @@ function generate() {
 
   let array2D = getArray2D(shape, n);
   graphicalDisplay(shape, array2D);
-
-  $(this).prop('disabled', false); 
 }
 
 function getArray2D(shape, n) {
