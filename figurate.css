@@ -1,0 +1,63 @@
+#title {
+  font-size: 24px;
+}
+
+#inputs-ctr {
+  text-align: center;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 25px;
+  font-size: 18px;
+}
+#inputs-ctr select {
+  margin-right: 5px;
+}
+
+#value {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  font-size: 24px;
+  text-align: center;
+}
+
+#graphical-display .row {
+  text-align: center;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#graphical-display .square-row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#graphical-display .cell {
+  background-color: black;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+/**************etc.***************/
+
+.clear {
+  clear: both;
+}
+
+.side-by-side-ctr > div {
+  float: left;
+}
+
+code {
+  font-size: 18px;
+}

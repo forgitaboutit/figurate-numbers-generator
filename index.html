@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <title>figurate numbers</title>
+  <link rel='stylesheet' href='/figurate-numbers-generator/figurate.css'>
+  <script src='https://code.jquery.com/jquery-3.7.0.slim.min.js'
+          integrity='sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE='
+          crossorigin='anonymous'></script>
+	<script src='/figurate-numbers-generator/figurate.js'></script>
+</head>
+
+<body>
+
+  <div align='center' id='title'><strong>figurate numbers generator</strong></div>
+
+  <div id='inputs-ctr' class='side-by-side-ctr'>
+
+    <div>
+      shape:
+      <select id='shape-select'>
+        <option value='square'>square</option>
+        <option value='triangular'>triangular</option>
+        <option value='star'>star</option>
+      </select>
+    </div>
+
+    <div>
+      n:
+      <select id='n-select'>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
+        <option value='6'>6</option>
+        <option value='7'>7</option>
+        <option value='8'>8</option>
+        <option value='9'>9</option>
+        <option value='10'>10</option>
+      </select>
+    </div>
+
+    <div>
+      <button id='generate-button'>generate</button>
+    </div>
+
+  </div>
+  <div id='value'></div>
+
+  <div id='graphical-display' class='clear'></div>
+
+  <div class='clear'>
+    <pre><code class='language-javascript'>
+    </code></pre>
+  </div>
+
+</body>
+</html>
